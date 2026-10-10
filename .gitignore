@@ -1,0 +1,30 @@
+# Development-only notes (kept out of the public repo)
+CLAUDE.md
+docs/PHASES.md
+docs/STATUS.md
+
+# Secrets
+.env
+.env.*
+!.env.example
+.netrc
+
+# Raw data pulls (large; rebuilt by pipelines/)
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
