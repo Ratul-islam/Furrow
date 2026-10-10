@@ -10,7 +10,19 @@ NASA Space Apps Challenge 2026 · Challenge: **Field Shift: Adapting Farms with 
 
 ## Status
 
-**Preparation, as of October 10, 2026.** The tool is built during the event window, November 14–15, 2026. Until then this page describes the design. It reports no results yet; the [Results](#results) section is filled in during the event.
+**Preparation, as of October 10, 2026.** The repository holds the design on this page and a prototype dashboard in [`app/`](app/).
+
+The prototype runs on **sample data**. Every number it shows comes from a seeded generator and is labelled as a sample on screen; none of it is a result. The ranking logic behind it is real: priority weights, a combined score, regret in each climate future, and the lowest worst-case regret. Real NASA data replaces the sample data section by section before and during the event window, November 14–15, 2026. The [Results](#results) section is filled in during the event.
+
+To run the prototype:
+
+```bash
+cd app
+npm install
+npm run dev
+```
+
+Then open http://localhost:3000.
 
 ## The problem
 
