@@ -198,7 +198,7 @@ None used in this version.
 ## Install the demo
 
 - **Android:** download `Furrow-v1.0.0.apk` from the [latest release](https://github.com/Ratul-islam/Furrow/releases/latest), open it on the phone and allow installing from this source. It needs Android 7 or later on a 64-bit (arm64) phone, which covers nearly all phones from recent years. The app runs on the NASA data bundled inside it, so it works offline. Only the 7-day forecast, place search and map tiles need a connection.
-- **Web:** open [ratul-islam.github.io/Furrow](https://ratul-islam.github.io/Furrow/), or download `Furrow-web-v1.0.0.zip` on the same release is a static build. Unzip it and serve the folder with any static server, for example `npx serve -s furrow-web`.
+- **Web:** open [ratul-islam.github.io/Furrow](https://ratul-islam.github.io/Furrow/) in any browser. To run it offline, download `Furrow-web-v1.0.0.zip` from the same release, unzip it and serve the folder with any static server, for example `npx serve -s furrow-web`.
 - **iPhone:** use the web version, or run the app from source with Expo Go (below).
 
 ## Run it
