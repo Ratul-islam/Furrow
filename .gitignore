@@ -1,9 +1,3 @@
-# Development-only notes (kept out of the public repo)
-CLAUDE.md
-docs/PHASES.md
-docs/STATUS.md
-app/AGENTS.md
-
 # Secrets
 .env
 .env.*
@@ -29,3 +23,9 @@ build/
 .vscode/
 .idea/
 .DS_Store
+
+# Superseded web prototype (the deliverable is mobile/)
+app/
+
+# Release builds (attached to GitHub releases, not committed)
+release/
