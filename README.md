@@ -11,7 +11,7 @@ Furrow is a mobile decision-support app for one farmer and one field. It combine
 | **Pilot field** | Ashulia, Savar, Dhaka, Bangladesh (23.9° N, 90.3° E, rounded to 0.1°) |
 | **Demo (30 s video / ≤ 7 slides)** | _link added at submission_ |
 | **Android app (APK)** | [Furrow v1.0.0 release](https://github.com/Ratul-islam/Furrow/releases/latest) |
-| **Try it in a browser** | _link added at submission_ |
+| **Try it in a browser** | [ratul-islam.github.io/Furrow](https://ratul-islam.github.io/Furrow/) (best at phone width) |
 | **Space Apps project page** | _link added at submission_ |
 | **Licence** | [Apache 2.0](LICENSE) |
 
@@ -198,7 +198,7 @@ None used in this version.
 ## Install the demo
 
 - **Android:** download `Furrow-v1.0.0.apk` from the [latest release](https://github.com/Ratul-islam/Furrow/releases/latest), open it on the phone and allow installing from this source. It needs Android 7 or later on a 64-bit (arm64) phone, which covers nearly all phones from recent years. The app runs on the NASA data bundled inside it, so it works offline. Only the 7-day forecast, place search and map tiles need a connection.
-- **Web:** `Furrow-web-v1.0.0.zip` on the same release is a static build. Unzip it and serve the folder with any static server, for example `npx serve -s furrow-web`.
+- **Web:** open [ratul-islam.github.io/Furrow](https://ratul-islam.github.io/Furrow/), or download `Furrow-web-v1.0.0.zip` on the same release is a static build. Unzip it and serve the folder with any static server, for example `npx serve -s furrow-web`.
 - **iPhone:** use the web version, or run the app from source with Expo Go (below).
 
 ## Run it
